@@ -4,6 +4,8 @@ import './style.css';
 import Players from "../Players";
 import Rappers from "../Rappers";
 import Admin from "../Admin";
+import Select from 'react-select';
+
 
 export default class PlayersRappers extends Component {
     constructor(props) {

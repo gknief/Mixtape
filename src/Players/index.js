@@ -4,6 +4,7 @@ import AddPlayerForm from "../AddPlayerForm";
 import Admin from "../Admin";
 import PlayersRappers from "../PlayersRappers";
 import './style.css';
+import Select from 'react-select';
 
 export default class Players extends Component {
   constructor(props) {

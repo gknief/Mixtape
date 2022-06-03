@@ -153,11 +153,11 @@ select {
 } 
 
 .player-options {
-  
+  display: block;
 }
 
 .player-selection {
- 
+  display: block;
 }
 
 .player-selection:hover {

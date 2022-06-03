@@ -9,6 +9,8 @@ import Mixtape from "../Mixtape";
 import AddPlayerForm from "../AddPlayerForm";
 import AddRapperForm from "../AddRapperForm";
 import Admin from "../Admin";
+import Select from 'react-select';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +47,7 @@ class App extends Component {
       rapper: this.state.rappers[0]
     })
   }
+
 
   onPickPlayer = e => {
     const player = e.target.value;
