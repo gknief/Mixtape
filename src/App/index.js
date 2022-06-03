@@ -9,7 +9,6 @@ import Mixtape from "../Mixtape";
 import AddPlayerForm from "../AddPlayerForm";
 import AddRapperForm from "../AddRapperForm";
 import Admin from "../Admin";
-import Select from 'react-select';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {

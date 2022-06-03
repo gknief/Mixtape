@@ -29,8 +29,7 @@ export default class Home extends Component {
           </div>
             {/* <button className='players-button'><Link to='/players'>Players</Link></button>
             <button className='rappers-button'><Link to='/rappers'>Rappers</Link></button> */}
-        <iframe width="0" height="0" src={`https://www.youtube.com/embed/Lv07rGgIOMc?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1&amp;mute=0`} frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
+        
         </div>
       )
     }
